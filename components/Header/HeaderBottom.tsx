@@ -121,7 +121,7 @@ const HeaderBottom = () => {
             </div>
 
             {/* LANGUAGE DROPDOWN */}
-            <LanguageDropdown/>
+            {/* <LanguageDropdown/> */}
 
     
           </div>
@@ -155,7 +155,7 @@ const HeaderBottom = () => {
                 <img src="/logo.png" alt="" className="w-30 h-8" />
               </Nav.Link>
             }
-            <LanguageDropdown />
+            {/* <LanguageDropdown /> */}
           </Offcanvas.Title>
         </Offcanvas.Header>
 
