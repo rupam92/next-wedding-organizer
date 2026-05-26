@@ -66,7 +66,7 @@ const HeaderBottom = () => {
     <>
       <Navbar
         expand="lg"
-        className="w-full py-4 z-1000 bg-[var(--primary-blue)]"
+        className="w-full py-4 z-1000 bg-[var(--dark-brown)]"
         style={{ position: isSticky ? "fixed" : "static", top: "0" }}
       >
         <Container className="d-flex justify-content-between align-items-center">
@@ -113,7 +113,7 @@ const HeaderBottom = () => {
 
             {/* EXPLORE BUTTON */}
             <div
-              className="bg-[var(--primary-green)] text-white px-3 py-2 rounded-pill fw-medium  "
+              className="bg-[var(--light-brown)] text-white px-3 py-2 rounded-pill fw-medium  "
               style={{ fontSize: "14px" }}
             >
               {/* <Nav.Link href="/explore">Explore Ecosystem</Nav.Link> */}
@@ -128,7 +128,7 @@ const HeaderBottom = () => {
 
           {/* MOBILE EXPLORE BUTTON */}
           <div
-            className="bg-[var(--primary-green)] text-white px-3 py-2 rounded-pill fw-semibold d-lg-none me-md-0 me-3"
+            className="bg-[var(--light-brown)] text-white px-3 py-2 rounded-pill fw-semibold d-lg-none me-md-0 me-3"
             style={{ fontSize: "12px" }}
           > <Nav.Link href="/BookNow">Book Now</Nav.Link>
             {/* Explore Ecosystem */}
@@ -136,9 +136,9 @@ const HeaderBottom = () => {
         </Container>
 
         {/* MOBILE SEARCHBAR */}
-        <Container className="d-lg-none mt-3">
+        {/* <Container className="d-lg-none mt-3">
           <Searchbar />
-        </Container>
+        </Container> */}
       </Navbar>
 
       <Offcanvas

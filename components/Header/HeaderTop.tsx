@@ -3,13 +3,13 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import mobileMenuData from "./helper/MenuData";
-import { FaInstagram, FaYoutube, FaLinkedin, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaPhoneAlt } from "react-icons/fa";
 
 const HeaderTop = () => {
   return (
     <div className="headerTop sticky">
 
-      <div className="bg-[var(--primary-green)] hidden md:block w-full">
+      <div className="bg-[var(--light-brown)] hidden md:block w-full">
         <Navbar expand="lg" className="p-0">
           
           {/* Use container-fluid to get full width */}
@@ -31,14 +31,14 @@ const HeaderTop = () => {
 
               {/* SOCIAL ICONS */}
               <div className="flex items-center gap-2 cursor-pointer">
-                {[FaFacebookF, FaInstagram, FaLinkedin, FaYoutube].map(
+                {[ FaInstagram, FaPhoneAlt, FaYoutube].map(
                   (Icon, idx) => (
                     <div
                       key={idx}
                       className="w-6 h-6 flex items-center justify-center rounded-full hover:scale-102 transition transform duration-200"
                       style={{ background: "white" }}
                     >
-                      <Icon className="text-[var(--primary-green)] text-sm" />
+                      <Icon className="text-[var(--light-brown)] text-sm" />
                     </div>
                   )
                 )}

@@ -66,16 +66,16 @@ const Menu = ({ closeDrawer }: MenuProps) => {
           <h3 className="text-[20px] font-semibold text-[#001A4D]">Follow us</h3>
         </div>
         <div className="px-4 py-3 flex items-center gap-4">
-          <div className="p-2 bg-[var(--primary-green)] rounded-full">
+          <div className="p-2 bg-[var(--light-brown)] rounded-full">
             <a href=""><FaFacebook className="text-white text-2xl" /></a>
           </div>
-          <div className="p-2 bg-[var(--primary-green)] rounded-full">
+          <div className="p-2 bg-[var(--light-brown)] rounded-full">
             <a href=""><FaInstagram className="text-white text-2xl" /></a>
           </div>
-          <div className="p-2 bg-[var(--primary-green)] rounded-full">
+          <div className="p-2 bg-[var(--light-brown)] rounded-full">
             <a href=""><FaLinkedin className="text-white text-2xl" /></a>
           </div>
-          <div className="p-2 bg-[var(--primary-green)] rounded-full">
+          <div className="p-2 bg-[var(--light-brown)] rounded-full">
             <a href=""><FaYoutube className="text-white text-2xl" /></a>
           </div>
         </div>
